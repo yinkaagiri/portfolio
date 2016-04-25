@@ -1,35 +1,20 @@
-body {
-  font-size: 20px;
-  color: white;
-  font-family: helvetica;
-  background: #000 url("background3.jpg");
-  background-position: center;
-}
-  #header {
-    color:#DEB887;
-    padding:2px;
-  }
+
+
   #header, #footer{
     background-color:rgba(0,0,0,0.5);
 
     text-align: center;
   }
   div	{
-    text-align: left;
+    text-align: center;
 
   }
-  #content {
-    width:600px;
-    float:right;
-    margin-top:80px;
-    padding:20px 120px;
-    text-align: justify;
-  }
+
   img {
-    margin:100px 0px 0px 0px;
+    margin:50px 0px 0px 0px;
     float:left;
-    width:360px;
-    height:400px;"
+    width:300px;
+    height:250px;"
     border: black;
     border-radius: 20px;
     /*margin: 40px 0px 0px 0px;
@@ -38,7 +23,29 @@ body {
   }
   #footer {
     clear:both;
-    padding:10px;
-    margin-bottom:1em;
-    /*clear: left;*/
+    padding:5px;
+    /*margin-bottom:1em;*/
+    text-align: center;
+  }
+
+  #wrap .container {
+      min-height: 100%;
+      height: auto;  /* this line takes care of "more than enough content problem"  */
+  }
+
+
+   html, body {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      /*background: #000 url("background3.jpg");*/
+      background-position: center;
+  }
+
+
+   #wrap {
+      min-height: 100%;
+      /* height: auto !important; */
+      height: 100%;
+      margin: 0 auto -60px;
   }
